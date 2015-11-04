@@ -264,7 +264,7 @@ export class Select implements OnInit, OnDestroy {
       if (e.srcElement && e.srcElement.className &&
         e.srcElement.className.indexOf('ui-select') >= 0) {
         if (e.target.nodeName !== 'INPUT') {
-          context.matchClick(null);
+          // context.matchClick(null);
         }
         return;
       }
